@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <div id="content">
+    <div id="heading">
+        <h2>Job Application <span style="font-size: 12px; font-weight: 300;">(DevOps)</span></h2>
+    </div>
+    <form id="form-data">
+
+    <div id="firstline">
+     <div id="half-div" class="form-div">
+        <label for="firstname">First Name</label>
+        <input id="firstname" name="firstname" placeholder="Enter your first name"/>
+     </div>
+     <div id="half-div" class="form-div">
+        <label for="lastname">Last Name</label>
+        <input id="lastname" name="lastname" placeholder="Enter your last name"/>
+     </div>
+    </div>
+
+    <div id="secondline">
+     <div class="form-div">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address" rows="3" cols="30"></textarea>
+     </div>
+    </div>
+
+    <div id="thirdline">
+     <div id="half-div" class="form-div">
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="Enter your email" type="email"/>
+     </div>
+     <div id="half-div" class="form-div">
+        <label for="password">Password</label>
+        <input id="password" name="password" placeholder="Enter your password" type="password"/>
+     </div>
+    </div>
+
+    <div id="fourthline">
+        <div id="half-div" class="form-div">
+           <label for="experience">Experience</label>
+           <input id="experience" name="experience" placeholder="2 Years" type="number"/>
+        </div>
+        <div id="half-div" class="form-div">
+           <label for="resume">Upload your Resume</label>
+           <input id="resume" name="resume" type="file"/>
+        </div>
+       </div>
+    </form>
+    <button id="button">Apply Now</button>
+</div>
+    
+</body>
+</html>
