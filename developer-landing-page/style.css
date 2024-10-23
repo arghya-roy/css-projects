@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#hero {
+background-image: url(./developer.png);
+background-position: center;
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat;
+
+padding: 50px 200px;
+box-sizing: border-box;
+font-size: 40px;
+color: white;
+}
+
+#offer-heading {
+    background-color: black;
+    height: 120px;
+    width: 100vw;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#offers {
+    height: 450px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offer-block {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(110, 106, 106);
+    border-radius: 5%;
+    overflow: hidden;
+
+
+}  
+
+.offer-block img {
+    width: 120%;
+    object-fit: cover;  
+    object-position: center; 
+}  
+.offer-block h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.offer-block p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 11px;
+}
+#description {
+    width: 100vw;
+    height: 180px;
+    display: flex;
+    background-color: #4D1C06;
+}
+
+.sections {
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+
+.sections h1 {
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+}
+
+#contact {
+    background-color: #363A0E;
+}
+
+#about {
+    background-color: #4D1C06;
+}
+
+#ending {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: aliceblue;
+    background-color: #1a0d07;
+}
+
+#ending h1 {
+    font-weight: 100;
+}
