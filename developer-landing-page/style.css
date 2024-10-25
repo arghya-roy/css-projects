@@ -2,8 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
 #hero {
 background-image: url(./developer.png);
+background-size: cover;
 background-position: center;
 height: 100vh;
 width: 100vw;
@@ -14,6 +16,14 @@ box-sizing: border-box;
 font-size: 40px;
 color: white;
 }
+
+@media (max-width: 768px) {
+    #hero {
+      width: 100vw;
+      height: auto;
+    }
+  }
+
 
 #offer-heading {
     background-color: black;
