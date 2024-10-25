@@ -121,6 +121,8 @@ color: white;
       height: auto;
       min-height: 300px;
       max-height: 500px;
+      padding: 20px 40px;
+
     }
     #offer-heading h2 {
         font-size: 15px;
@@ -130,6 +132,10 @@ color: white;
     }
     #heading h2, #heading {
         font-size: 32px !important;
+    }
+    #heading {
+        font-size: 32px !important;
+
     }
        
   }
