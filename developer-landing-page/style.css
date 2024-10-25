@@ -17,13 +17,6 @@ font-size: 40px;
 color: white;
 }
 
-@media (max-width: 768px) {
-    #hero {
-      width: 100vw;
-      height: auto;
-    }
-  }
-
 
 #offer-heading {
     background-color: black;
@@ -37,16 +30,18 @@ color: white;
 }
 
 #offers {
-    height: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .offer-block {
-    height: 350px;
     width: 250px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(110, 106, 106);
@@ -114,3 +109,29 @@ color: white;
 #ending h1 {
     font-weight: 100;
 }
+
+#heading h2, #heading {
+    font-size: 70px;
+}
+
+
+
+@media (max-width: 768px) {
+    #hero {
+      width: 100vw;
+      height: auto;
+      min-height: 300px;
+      max-height: 500px;
+    }
+    #offer-heading h2 {
+        font-size: 15px;
+    }
+    #offer-heading {
+        height: 50px !important;
+    }
+    #heading h2, #heading {
+        font-size: 32px !important;
+    }
+       
+  }
+
