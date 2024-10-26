@@ -47,6 +47,10 @@ input {
     font-size: 15px;
     padding-right: 10px;
     color: #D71340;
+}
+
+#field h4:hover {
+    cursor: pointer;
 
 }
 
@@ -58,7 +62,9 @@ border-radius: 5px;
 color: white;
 font-size: 16px;
 }
-
+button:hover {
+    cursor: pointer; 
+}
 #button-div {
     display: flex;
     justify-content: end;
