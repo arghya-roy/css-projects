@@ -1,0 +1,27 @@
+#calculator {
+
+width: 250px;
+margin: auto;
+margin-top: 50px;
+border: 2px solid black;
+padding: 5px;
+}
+
+#inputBox {
+    width: 242px;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.btn {
+    height: 70px;
+    width: 70px;
+}
